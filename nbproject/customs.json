@@ -1,0 +1,14 @@
+{
+    "elements": {
+        "canvas-fractal-stof": {},
+        "canvas-spiro": {},
+        "canvas-fractal-mira": {},
+        "canvas-fractal-henon": {},
+        "canvas-fractal-kronkel": {},
+        "canvas-spiro-fig": {},
+        "input-color": {},
+        "broadcast-forwarder": {},
+        "input-slider": {}
+    },
+    "attributes": {}
+}

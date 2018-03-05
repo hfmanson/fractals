@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fractals</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Fractal.js" type="text/javascript"></script>
+        <script src="CECanvas.js" type="text/javascript"></script>
+        <script src="CEFractal.js" type="text/javascript"></script>
+        <script src="CEControl.js" type="text/javascript"></script>
+        <script src="CEBroadcast.js" type="text/javascript"></script>
+    </head>
+    <body>
+    <canvas-fractal-mira id="mira" width='2048' height='2048'>
+    </canvas-fractal-mira>
+    <broadcast-forwarder data-channel="mira" data-destination="mira"></broadcast-forwarder>
+    <br />
+</body>
+</html>
